@@ -174,8 +174,8 @@ export const FormProvider = ({ children }) => {
     };
     // handling Next
     const handleNext = () => {
-      setStep((prev)=> prev +1)
       if(handleValidations()){
+        setStep((prev)=> prev +1)
       }
     }
     // handleing go back

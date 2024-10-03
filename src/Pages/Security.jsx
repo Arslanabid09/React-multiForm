@@ -31,7 +31,7 @@ const Security = () => {
         
         <Input
           className={''}
-          type={'number'}
+          type={'text'}
           placeholder={"Driver's License Number"}
           value={formData.dLincenseNumber}
           onChange={(e) => setFormData((formData)=>( { ...formData, dLincenseNumber: e.target.value }))} // Correct typo

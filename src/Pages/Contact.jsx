@@ -27,7 +27,7 @@ const Contact = () => {
           value={formData.houseNumber}
           onChange={(e) => setFormData((formData)=>( { ...formData, houseNumber: e.target.value }))} // Corrected typo
         />
-        {errors.houseNumber && <p className='text-red-500'>{errors.houseNumber}</p>}
+        {errors.houseNumber && <p className='text-red-500 text-sm'>{errors.houseNumber}</p>}
         
         <div className='grid grid-cols-2 gap-4 justify-evenly gap-x-3'>
           <div className='flex flex-col'>
