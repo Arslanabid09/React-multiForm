@@ -41,7 +41,7 @@ function App() {
 
         {/* Navigation buttons */}
         <div className="flex justify-evenly">
-          {form.step > 1 || form.step === 4 && (
+          {form.step > 1 && form.step < 4 && (
             <Button
               label={'Go Back'}
               type={'button'}
